@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa-IR" dir="rtl">
       <head>
+        {/* <link href="/favicon.webp" rel="icon" type="image/webp" /> */}
         <link
           href="https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/FontAwesome/FontAwesome.min.css"
           rel="stylesheet"
