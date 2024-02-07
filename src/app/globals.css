@@ -1,3 +1,9 @@
+@import url("https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/reset.min.css");
+@import url("https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/FontAwesome/FontAwesome.min.css");
+@import url("https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/IRANYekan/IRANYekan.min.css");
+@import url("https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/Shabnam/Shabnam.min.css");
+@import url("https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/Vazir/Vazir.min.css");
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
