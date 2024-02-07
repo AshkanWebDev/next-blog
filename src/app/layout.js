@@ -1,4 +1,3 @@
-import "./reset.css";
 import "./globals.css";
 import TheHeader from "@/components/TheHeader";
 import TheFooter from "@/components/TheFooter";
@@ -11,29 +10,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa-IR" dir="rtl">
-      <head>
-        {/* <link href="/favicon.webp" rel="icon" type="image/webp" /> */}
-        <link
-          href="https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/FontAwesome/FontAwesome.min.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
-          href="https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/IRANYekan/IRANYekan.min.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
-          href="https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/Vazir/Vazir.min.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
-          href="https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/Shabnam/Shabnam.min.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-      </head>
       <body>
         <TheHeader />
         {children}
